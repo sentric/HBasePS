@@ -4,3 +4,7 @@
 *.jar
 *.war
 *.ear
+.project
+.classpath
+.settings/org.eclipse.jdt.core.prefs
+target

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 11. Januar 2012 NOTE: This hbase configuration file is used when running 
+	integration tests. The a local cluster is started and stopped by a the HBaseTestingUtilityFactory. 
+	All other Hbase configuration properties are provided by the hbase-test.jar 
+	which contains a hbase-site.xml with properties for testing purpose, eg. 
+	disabled web ui's and different ports in use.' We have to provide zk quorum 
+	and root dir only. -->
+<configuration>
+	<property>
+		<name>hbase.zookeeper.quorum</name>
+		<value>localhost</value>
+		<description>only localhost supported during integration tests
+		</description>
+	</property>
+	<property>
+		<name>hbase.rootdir</name>
+		<value>file:///tmp/hbase-${user.name}/hbase</value>
+		<description>tmp is a good place to store things during integration
+			test
+    </description>
+	</property>
+</configuration>
