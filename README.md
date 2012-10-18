@@ -56,3 +56,5 @@ Released under Apache License 2.0.
 Author:
 -------
 Christian Guegi
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/ce2c624c56515f7200b27cac7c638138 "githalytics.com")](http://githalytics.com/sentric/HBasePS)
