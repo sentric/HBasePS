@@ -16,7 +16,7 @@
 		<encoding>UTF-8</encoding>
 		<jdk.version>1.6</jdk.version>
 		<lucene.version>3.5.0</lucene.version>
-		<solr.version>3.5.0</solr.version>
+		<solr.version>8.2.0</solr.version>
 		<hadoop.core.version>0.23.0-mr1-cdh4b1</hadoop.core.version> <!-- 0.23.1-mr1-cdh4.0.0b2 -->
 		<hadoop.version>0.23.0-cdh4b1</hadoop.version> <!-- 0.23.1-cdh4.0.0b2 -->
 		<hbase.version>0.92.0-cdh4b1</hbase.version> <!-- 0.92.1-cdh4.0.0b2 -->
